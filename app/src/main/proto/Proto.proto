@@ -1,0 +1,7 @@
+syntax = "3";
+
+option java_package = "<your package name>";
+
+message MyProto{
+    // type fieldName = position of field starting from 1;
+}
