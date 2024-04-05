@@ -1,6 +1,6 @@
-syntax = "3";
+syntax = "proto3";
 
-option java_package = "<your package name>";
+option java_package = "app.src.main.java";
 
 message MyProto{
     // type fieldName = position of field starting from 1;
