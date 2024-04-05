@@ -15,10 +15,10 @@ class MainActivity: ComponentActivity() {
 
 class MyApp: Application(){
     //custom props go here
-    object ProtoSerializer: Serializer<MyProto>{
-        override val defaultValue: MyProto = MyProto.getDefaultInstance()
-        override suspend fun readFrom
-    }
+//    object ProtoSerializer: Serializer<MyProto>{
+//        override val defaultValue: MyProto = MyProto.getDefaultInstance()
+//        override suspend fun readFrom
+//    }
 }
 
 class CustomViewModel(): ViewModel() {
